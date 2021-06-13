@@ -61,13 +61,13 @@ def elkSources = [
   "${elkRepo}/plugins/org.eclipse.elk.graph.json/src",
   "${elkRepo}/plugins/org.eclipse.elk.alg.common/src",
   // The algorithms
-  "${elkRepo}/plugins/org.eclipse.elk.alg.disco/src",
-  "${elkRepo}/plugins/org.eclipse.elk.alg.force/src",
+//  "${elkRepo}/plugins/org.eclipse.elk.alg.disco/src",
+//  "${elkRepo}/plugins/org.eclipse.elk.alg.force/src",
   "${elkRepo}/plugins/org.eclipse.elk.alg.layered/src",
-  "${elkRepo}/plugins/org.eclipse.elk.alg.mrtree/src",
-  "${elkRepo}/plugins/org.eclipse.elk.alg.rectpacking/src",
-  "${elkRepo}/plugins/org.eclipse.elk.alg.radial/src",
-  "${elkRepo}/plugins/org.eclipse.elk.alg.spore/src"
+//  "${elkRepo}/plugins/org.eclipse.elk.alg.mrtree/src",
+//  "${elkRepo}/plugins/org.eclipse.elk.alg.rectpacking/src",
+//  "${elkRepo}/plugins/org.eclipse.elk.alg.radial/src",
+//  "${elkRepo}/plugins/org.eclipse.elk.alg.spore/src"
 ]
 
 // the directory to which all sources are copied for compilation

@@ -22,13 +22,13 @@ import org.eclipse.elk.graph.*;
 import org.eclipse.elk.graph.json.*;
 
 import org.eclipse.elk.alg.common.compaction.options.*;
-import org.eclipse.elk.alg.disco.options.*;
+//import org.eclipse.elk.alg.disco.options.*;
 import org.eclipse.elk.alg.layered.options.*;
-import org.eclipse.elk.alg.force.options.*;
-import org.eclipse.elk.alg.mrtree.options.*;
-import org.eclipse.elk.alg.radial.options.*;
-import org.eclipse.elk.alg.spore.options.*;
-import org.eclipse.elk.alg.rectpacking.options.*;
+//import org.eclipse.elk.alg.force.options.*;
+//import org.eclipse.elk.alg.mrtree.options.*;
+//import org.eclipse.elk.alg.radial.options.*;
+//import org.eclipse.elk.alg.spore.options.*;
+//import org.eclipse.elk.alg.rectpacking.options.*;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
@@ -134,7 +134,7 @@ public class ElkJs implements EntryPoint {
             String alg = arr.get(i).isString().stringValue();
             if (alg.equals("layered")) {
                 SERVICE.registerLayoutMetaDataProviders(new LayeredMetaDataProvider());
-            } else if (alg.equals("force")) {
+            }/* else if (alg.equals("force")) {
                 SERVICE.registerLayoutMetaDataProviders(new ForceMetaDataProvider());
             } else if (alg.equals("stress")) {
                 SERVICE.registerLayoutMetaDataProviders(new StressMetaDataProvider());
@@ -148,7 +148,7 @@ public class ElkJs implements EntryPoint {
                 SERVICE.registerLayoutMetaDataProviders(new SporeMetaDataProvider());
             } else if (alg.equals("rectpacking")) {
                 SERVICE.registerLayoutMetaDataProviders(new RectPackingMetaDataProvider());
-            }
+            }*/
         }
     }
 
