@@ -51,7 +51,7 @@ ext.versions = [
 ]
 
 if (!hasProperty('elkRepo')) {
-	ext.elkRepo = '../elk'
+	ext.elkRepo = './elk'
 }
 
 def elkSources = [
@@ -296,6 +296,7 @@ task copyMinified(type: Copy) {
 }
 
 task lib(dependsOn: [ copyPretty, copyMinified ])
+task gwtcAll(dependsOn: [ gwtc, gwtcMinified ])
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 //                      Task Dependencies
