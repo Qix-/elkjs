@@ -1,15 +1,14 @@
 {
-  "name": "elkjs",
+  "name": "@qix/elkjs",
   "version": "0.8.0",
   "author": {
     "name": "Ulf Rüegg",
     "email": "uruurumail@gmail.com"
   },
   "description": "Automatic graph layout based on Sugiyama's algorithm. Specialized for data flow diagrams and ports.",
-  "main": "lib/main",
-  "types": "lib/main",
+  "main": "lib/elk-worker.js",
   "files": [
-    "lib"
+    "lib/elk-worker.js"
   ],
   "repository": {
     "type": "git",
@@ -48,7 +47,6 @@
     "web-worker": "^1.0.0"
   },
   "publishConfig": {
-    "access": "public",
-    "tag": "next"
+    "access": "public"
   }
 }
