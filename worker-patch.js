@@ -3,3 +3,4 @@
 // Completely unacceptable and nobody seems to want to fix this.
 
 var _xblockexpression;
+var document = typeof document === 'undefined' ? null : document;
